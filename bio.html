@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio Escolar - Biografia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">MeuPortfólio</a>
+            <nav class="nav" id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="bio.html" class="nav-link active">Biografia</a></li>
+                    <li><a href="projects.html" class="nav-link">Trabalhos</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Alternar tema claro/escuro" class="theme-toggle">🌙</button>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main container bio-main">
+        <section class="bio-section" data-sr-id="3">
+            <img src="foto1.jpg" alt="Foto de Eduardo" class="bio-photo" />
+            <div class="bio-text">
+                <h2>Sobre Mim</h2>
+                <p>Me chamo Eduardo, sou um estudante dedicado que adora aprender sobre novas tecnologias, programação e design. Tenho interesse em desenvolver projetos criativos que unam funcionalidade e estética.</p>
+                <p>Além dos estudos, gosto de participar de eventos escolares e colaborar em projetos em grupo, buscando sempre crescer e compartilhar conhecimento.</p>
+            </div>
+        </section>
+
+        <section class="skills-section" data-sr-id="4">
+            <h2>Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>Design Responsivo</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Eduardo. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/Dudupontopng" aria-label="GitHub" target="_blank" rel="noopener">
+                    <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20" aria-hidden="true">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.263.82-.583 0-.288-.01-1.05-.015-2.06-3.338.725-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.755-1.333-1.755-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.3-5.466-1.335-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 013.003-.404c1.02.005 2.047.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.873.12 3.176.77.84 1.236 1.91 1.236 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.103.823 2.222 0 1.606-.015 2.9-.015 3.293 0 .32.217.7.825.58C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://instagram.com/dudubohnf" aria-label="Instagram" target="_blank" rel="noopener">
+                    <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20" aria-hidden="true">
+                        <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.75 2a1 1 0 110 2 1 1 0 010-2zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"/>
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
